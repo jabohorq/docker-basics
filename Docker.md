@@ -23,7 +23,7 @@ The container is build using
 open browser on `localhost:3000`
 
 # Stop and remove container
-List containers `docker container ls` or `docker ps`
+List containers `docker container ls` or `docker ps -a`
 
 Stop container `docker stop <container-name>`
 
