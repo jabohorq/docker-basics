@@ -4,6 +4,37 @@ Flags:
 * `-p 80:80` map port 80 of the host to port 80 in the container
 * `docker/getting-started` image to use
 
+`docker run --rm -ti --name custom_name ubuntu:latest bash`
+* `--rm` delete the container after finish
+* `-ti` terminal interactive
+* `--name` container name user-especified
+* `ubuntu-latest` parent image
+* `bash` we can use the bash
+
+# Attach to container
+`docker attach container-name`
+deatach
+`ctl + p, ctl + q`
+
+# Logs
+`docker logs container-name`
+
+# Kill container
+```
+docker kill container-name
+docker rm container-name
+```
+# Container networking
+* Expose ports
+* Private networks to connect between containers
+
+
+# Create an image
+```
+docker commit container-id
+docker tag new-id tag-new-container
+```
+
 # Dockerfile
 ```
 FROM node:12-alpine <- Start from 12-alpine image
