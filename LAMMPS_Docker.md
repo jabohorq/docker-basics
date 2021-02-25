@@ -6,7 +6,7 @@
 FROM python:3.7.3-slim
 LABEL maintainer="JBB"
 LABEL version="0.1"
-LABEL description="Noteboook and data (.csv file) 
+LABEL description="Noteboook and data (.csv file)" 
 
 WORKDIR /data
 
