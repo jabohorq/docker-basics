@@ -1,4 +1,4 @@
-# LAMMPS WITTIN DOCKER
+# LAMMPS-- DOCKER
 
 ## Start from python-slim
 `docker container run -ti --name pylammp python:3.7.3-slim bash`<br/>
