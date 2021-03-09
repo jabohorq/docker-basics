@@ -66,6 +66,7 @@ FROM pylammp
 LABEL maintainer="JBB"
 LABEL version="0.1"
 LABEL description="LAMMPS for Pyhton" 
+WORKDIR /data
 EXPOSE 8888
 CMD ["jupyter","notebook","--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
 ```
